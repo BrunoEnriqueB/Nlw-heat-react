@@ -4,10 +4,10 @@ import { api } from '../../services/api'
 import {useEffect, useState} from 'react';
 
 type Message = {
-    id: string,
-    text: string,
+    id: string;
+    text: string;
     user: {
-        name: string,
+        name: string;
         avatar_url: string
     }
 }
